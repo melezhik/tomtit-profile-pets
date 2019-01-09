@@ -4,7 +4,7 @@ use v6;
 
 unit module Tomtit::Profile::Pets:ver<0.0.1>;
 
-sub profile-data ()  is export {
+our sub profile-data ()  is export {
 
   my %a is Map  = ( 
     cat   => (slurp %?RESOURCES<cat.pl6>.Str),
