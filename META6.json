@@ -1,0 +1,29 @@
+{
+  "authors" : [
+    "Alexey Melezhik"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+  ],
+  "description" : "Example Tomtit Profile",
+  "license" : "Artistic-2.0",
+  "name" : "Tomtit::Profile::Pets",
+  "perl" : "6.*",
+  "provides" : {
+    "Tomtit::Profile::Pets" : "lib/Tomtit/Profile/Pets.pm6"
+  },
+  "resources" : [
+    "cat.pl6",
+    "dog.pl6",
+    "fish.pl6"
+  ],
+  "source-type" : "git",
+  "source-url" : "https://github.com/melezhik/tomtit-profile-pets",
+  "support" : {
+    "bugtracker" : "https://github.com/melezhik/tomtit-profile-pets/issues",
+    "source" : "https://github.com/melezhik/tomtit-profile-pets.git"
+  },
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "version" : "0.0.1"
+}
